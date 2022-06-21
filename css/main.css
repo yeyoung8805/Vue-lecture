@@ -1,6 +1,0 @@
-div {
-  width: 500px;
-  height: 500px;
-  /* background: url("../images/logo.png"); 상대경로*/
-  background: url("/images/logo.png"); /*절대경로*/
-}
