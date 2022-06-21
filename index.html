@@ -12,6 +12,7 @@
 
 <body>
   <!-- <span> is an inline(word) element. -->
+  <!-- accumulates horizontally.. -->
   <span>Hello</span>
   <span>World</span>
 
@@ -19,6 +20,15 @@
   <!-- up/down margin is not applicable to inline element 'span' -->
   <span style="margin: 20px 30px;">Hello</span>
   <span style="padding: 20px 30px;">World2</span>
+
+  <!-- <div> is block(box) element. -->
+  <!-- accumulates vertically.. -->
+<div style="width: 100px;">Hello</div>
+<div style="height: 40px;">World3</div>
+
+<!-- not a problem to set margin/padding in up/down/left/right to 10px -->
+<div style="margin: 10px;">Hello</div>
+<div style="padding: 10px;">World4</div>
 </body>
 
 </html>
