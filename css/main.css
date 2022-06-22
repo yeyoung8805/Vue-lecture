@@ -17,3 +17,8 @@ ul > .melonFruit {
 div .fruit {
   color: aquamarine;
 }
+
+/* 선택자 .fruit 다음형제 요소 '하나'를 선택 */
+.fruit + li {
+  font-size: 50px;
+}
