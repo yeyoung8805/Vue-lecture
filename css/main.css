@@ -8,6 +8,7 @@ span.hello {
   color: aqua;
 }
 
+/* ul 의 자식요소중 class 가 melonFruit 인것! */
 ul > .melonFruit {
   color: violet;
 }
