@@ -1,7 +1,10 @@
-body {
-  font-size: 50px;
+table {
+
 }
-span {
-  color: blueviolet;
-  background: black;
+tr {
+
+}
+td {
+  border: 1px solid blue;
+  padding: 10px;
 }
