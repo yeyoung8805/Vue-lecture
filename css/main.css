@@ -8,12 +8,12 @@
   color: aquamarine;
 }
 
-/* h3의 형제요소중 '마지막'이라면 선택 */
+/* .fruits의 후손이자 h3의 형제요소중 '마지막'이라면 선택 */
 .fruits h3:last-child {
   color: blue;
 }
 
-/* 모든것의 형제요소중 'n(2)째'라면 선택 */
+/* .fruits의 후손이자 모든것의 형제요소중 'n(2)째'라면 선택 */
 .fruits *:nth-child(2) {
   color: antiquewhite;
 }
