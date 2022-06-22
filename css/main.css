@@ -1,4 +1,4 @@
-/* span의 형제요소중 '첫째'를 선택 */
+/* .fruits의 후손이자 span의 형제요소중 '첫째'를 선택 */
 .fruits span:first-child {
   color: red;
 }
