@@ -22,3 +22,8 @@ div .fruit {
 .fruit + li {
   font-size: 50px;
 }
+
+/* 선택자 .fruit 다음형제 요소 '모두'를 선택 */
+.fruit ~ li {
+  color: yellow;
+}
