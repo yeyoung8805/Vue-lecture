@@ -6,12 +6,12 @@
 }
 
 /* :hover 가상클래스 선택자 */
-.box:hover {
+/* .box:hover {
   width: 300px;
   background-color: royalblue;
-}
+} */
 
-.box:active {
+.box:focus {
   background-color: violet;
 }
 
