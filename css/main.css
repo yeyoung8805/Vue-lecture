@@ -1,29 +1,12 @@
-@import url("./box.css");
-
-span.hello {
-  font-size: 100px;
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: orange;
+  transition: 1s;
 }
 
-#grat {
-  color: aqua;
-}
-
-/* ul 의 자식요소중 class 가 melonFruit 인것! */
-ul > .melonFruit {
-  color: violet;
-}
-
-/* 자식선택자보다 하위선택자를 많이 사용한다. */
-div .fruit {
-  color: aquamarine;
-}
-
-/* 선택자 .fruit 다음형제 요소 '하나'를 선택 */
-.fruit + li {
-  font-size: 50px;
-}
-
-/* 선택자 .fruit 다음형제 요소 '모두'를 선택 */
-.fruit ~ li {
-  color: yellow;
+/* :hover 가상클래스 선택자 */
+.box:hover {
+  width: 300px;
+  background-color: royalblue;
 }
