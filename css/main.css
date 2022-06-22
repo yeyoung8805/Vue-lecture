@@ -2,7 +2,7 @@
   width: 100px;
   height: 100px;
   background-color: orange;
-  transition: 1s;
+  transition: 1s; /* 1초 시간을 줘서, 변화를 자연스럽게 보여주는 효과 */
 }
 
 /* :hover 가상클래스 선택자 */
