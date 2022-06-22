@@ -1,11 +1,5 @@
-a {
-  font-size: 100px;
-}
-
-.blueColor {
+div {
+  font-size: 50px;
   color: blue;
-}
-
-#abc {
-  color: yellowgreen;
+  text-decoration: underline;
 }
