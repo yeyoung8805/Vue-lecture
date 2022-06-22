@@ -10,3 +10,8 @@
   width: 300px;
   background-color: royalblue;
 }
+
+/* pseudo-class selector in <a> tag */
+a:hover {
+  color: brown;
+}
