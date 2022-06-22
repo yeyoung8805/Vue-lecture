@@ -1,34 +1,4 @@
-.box {
-  width: 100px;
-  height: 100px;
-  background-color: orange;
-  transition: 1s; /* 1초 시간을 줘서, 변화를 자연스럽게 보여주는 효과 */
-}
-
-/* :hover 가상클래스 선택자 */
-/* .box:hover {
-  width: 300px;
-  background-color: royalblue;
-} */
-
-.box:focus {
-  background-color: violet;
-}
-
-a {
-  font-size: 100px;
-}
-
-/* pseudo-class selector 'hover' in <a> tag */
-a:hover {
-  color: brown;
-}
-
-/* pseudo-class selector 'active' in <a> tag */
-a:active {
-  color: aqua;
-}
-
-input:focus {
-  background-color: orange;
+/* span의 형제요소중 '첫째'를 선택 */
+.fruits span:first-child {
+  color: red;
 }
