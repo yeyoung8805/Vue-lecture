@@ -2,3 +2,8 @@
 .fruits span:first-child {
   color: red;
 }
+
+/* .fruits의 후손이자 div의 형제요소중 '첫째'를 선택. 여기서는 해당되는 부분 없음 */
+.fruits div:first-child {
+  color: aquamarine;
+}
