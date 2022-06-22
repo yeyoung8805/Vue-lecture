@@ -11,6 +11,10 @@
   background-color: royalblue;
 }
 
+.box:active {
+  background-color: violet;
+}
+
 a {
   font-size: 100px;
 }
