@@ -12,3 +12,8 @@
 .fruits h3:last-child {
   color: blue;
 }
+
+/* 모든것의 형제요소중 'n(2)째'라면 선택 */
+.fruits *:nth-child(2) {
+  color: antiquewhite;
+}
