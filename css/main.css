@@ -17,3 +17,8 @@
 .fruits *:nth-child(2) {
   color: antiquewhite;
 }
+
+/* n은 0부터 시작 n=0,1,2,3.. 즉 '2의 배수째'라면 선택 */
+.fruits *:nth-child(2n) {
+  color: yellowgreen;
+}
