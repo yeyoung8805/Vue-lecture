@@ -12,3 +12,7 @@ span.hello {
 ul > .melonFruit {
   color: violet;
 }
+
+div .fruit {
+  color: aquamarine;
+}
