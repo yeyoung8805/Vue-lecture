@@ -11,7 +11,16 @@
   background-color: royalblue;
 }
 
-/* pseudo-class selector in <a> tag */
+a {
+  font-size: 100px;
+}
+
+/* pseudo-class selector 'hover' in <a> tag */
 a:hover {
   color: brown;
+}
+
+/* pseudo-class selector 'active' in <a> tag */
+a:active {
+  color: aqua;
 }
