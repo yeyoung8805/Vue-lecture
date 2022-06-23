@@ -1,32 +1,5 @@
 div {
-  font-size: 70px;
-}
-
-div.hello {
-  color: blue;
-}
-
-.hello {
-  color: red !important;
-}
-
-/* 아래 4개에서 점수가 늘어나는 순서대로 기억할것! */
-/* 0점 */
-* {
-
-}
-
-/* 1점 */
-div {
-
-}
-
-/* 10점 */
-.hello {
-
-}
-
-/* 100점 */
-#hello {
-
+  /* width: 100px; */
+  /* height: 100px; */
+  background-color: orange;
 }
