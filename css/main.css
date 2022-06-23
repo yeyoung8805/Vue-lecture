@@ -22,3 +22,18 @@
 .fruits *:nth-child(2n) {
   color: yellowgreen;
 }
+
+/* 홀수 */
+.fruits *:nth-child(2n+1) {
+  color: pink;
+}
+
+/* 2,3,4,5... */
+.fruits *:nth-child(n+2) {
+  color: peru;
+}
+
+/* negation selector : all which is not span */
+.fruits *:not(span) {
+  color: palevioletred;
+}
