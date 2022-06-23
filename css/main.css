@@ -7,5 +7,5 @@ div.hello {
 }
 
 .hello {
-  color: red;
+  color: red !important;
 }
