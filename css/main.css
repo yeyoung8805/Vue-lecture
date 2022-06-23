@@ -1,6 +1,6 @@
 html {
   /* default font size */
-  /* font-size: 16px; */
+  font-size: 16px;
 }
 
 .parent {
@@ -9,9 +9,9 @@ html {
   background-color: royalblue;
 }
 
-/* 1em = 16px */
+/* 1rem = 16px , when html font-size is declared 16px*/
 .child {
-  width: 10em;
+  width: 20rem;
   height: 50%;
   background-color: orange;
 }
