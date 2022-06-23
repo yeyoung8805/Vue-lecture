@@ -1,3 +1,7 @@
 .box::before {
   content: "Hi";
 }
+
+.box::after {
+  content: "Bye!";
+}
