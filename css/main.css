@@ -1,7 +1,13 @@
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: orange;
+}
+
 .box::before {
-  content: "Hi";
+  content: "Before!";
 }
 
 .box::after {
-  content: "Bye!";
+  content: "After!";
 }
