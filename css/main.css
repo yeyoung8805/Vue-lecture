@@ -1,18 +1,10 @@
-html {
-  /* default font size */
-  font-size: 16px;
+.container {
+
 }
 
-.parent {
-  width: 300px;
-  height: 200px;
-  background-color: royalblue;
-}
-
-/* 50vw means it uses 50% width of the viewport
-and 50vh means it users 50% height of the viewport */
-.child {
-  width: 50vw;
-  height: 50vh;
+.container .item {
+  width: 100px;
+  height: 100px;
   background-color: orange;
+  margin-bottom: 20px;
 }
