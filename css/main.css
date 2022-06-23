@@ -1,11 +1,13 @@
-body {
-  margin: 20px;
+.parent {
+  width: 100px;
+  height: 100px;
+  padding: 30px;
+  background-color: royalblue;
 }
 
-span {
-  display: inline-block; /* block, none, inline-block... */
-  width: 120px;
-  height: 30px;
-  background-color: royalblue;
-  color: white;
+.child {
+  width: 200px;
+  height: 100px;
+  background-color: orange;
+  opacity: .5; /* .5 = 0.5 */
 }
