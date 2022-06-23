@@ -6,6 +6,10 @@
 
 .box::before {
   content: "";
+  display: block;
+  width: 30px;
+  height: 30px;
+  background-color: pink;
 }
 
 .box::after {
