@@ -1,13 +1,7 @@
-.container .item {
+div {
   width: 100px;
   height: 100px;
   background-color: orange;
-}
-
-.container .item:first-child {
-  border: 10px dashed rgb(255, 0, 0);
-  /* border-width */
-  /* border-style: solid, dashed, dotted etc.. */
-  /* border-color #000, #FFFFFF rgb(255,255,255) rgba(0, 0, 0, 0.5) etc ...*/
-  /* border-top, border-top-width, border-top-style, border-top-color */
+  margin: 20px;
+  border-radius: 20px;
 }
