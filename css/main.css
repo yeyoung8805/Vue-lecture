@@ -5,3 +5,7 @@
 [type] {
   color: blueviolet;
 }
+
+[type="password"] {
+  color: yellow;
+}
