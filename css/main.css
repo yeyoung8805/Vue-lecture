@@ -9,9 +9,10 @@ html {
   background-color: royalblue;
 }
 
-/* 1rem = 16px , when html font-size is declared 16px*/
+/* 50vw means it uses 50% width of the viewport
+and 50vh means it users 50% height of the viewport */
 .child {
-  width: 20rem;
-  height: 50%;
+  width: 50vw;
+  height: 50vh;
   background-color: orange;
 }
