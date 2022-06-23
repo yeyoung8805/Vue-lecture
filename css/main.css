@@ -1,15 +1,3 @@
-[disabled] {
-  color: red;
-}
-
-[type] {
+.animal {
   color: blueviolet;
-}
-
-[type="password"] {
-  color: yellow;
-}
-
-[data-fruit-name] {
-  background-color: aqua;
 }
