@@ -5,7 +5,7 @@
 }
 
 .container .item:first-child {
-  border: 10px dashed red;
+  border: 10px dashed rgb(255, 0, 0);
   /* border-width */
   /* border-style: solid, dashed, dotted etc.. */
   /* border-color */
