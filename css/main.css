@@ -9,4 +9,5 @@ p {
   padding: 10px;
   border: 1px solid;
   box-sizing: border-box; /* border-box matches its size to the width */
+  line-height: 1.4 /* line-height = 줄간격 */
 }
