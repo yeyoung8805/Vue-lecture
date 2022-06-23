@@ -1,13 +1,11 @@
-.parent {
-  width: 200px;
-  height: 150px;
-  background-color: royalblue;
+body {
   margin: 20px;
-  overflow: visible; /* visible, hidden, scroll (x,y 모두 생성), auto (x,y중 넘친 부분만 생성) ... */
 }
 
-.child {
-  width: 300px;
-  height: 100px;
-  background-color: orange;
+span {
+  display: inline-block; /* block, none, inline-block... */
+  width: 120px;
+  height: 30px;
+  background-color: royalblue;
+  color: white;
 }
