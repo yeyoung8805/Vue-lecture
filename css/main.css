@@ -2,7 +2,9 @@ div {
   width: 100px;
   height: 100px;
   background-color: orange;
-  transition: width .5s; /* all, width(등 특정 property 명) */
+  transition:
+    width .5s,
+    background-color 2s; /* transition 속성들을 쉼표(,)로 연결하여 정의 가능 */
 }
 
 div:hover {
