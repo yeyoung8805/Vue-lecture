@@ -16,6 +16,7 @@
 .container .item:nth-child(2) {
   width: 140px;
   height: 70px;
+  position: absolute; /* the nth-child(3) will hide behind the nth-child(2) */
 }
 
 .container .item:nth-child(3) {
