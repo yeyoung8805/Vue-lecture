@@ -1,9 +1,14 @@
+body {
+  height: 3000px;
+}
+
 div {
-  width: 200px;
+  /* width: 200px; */
   height: 200px;
   background-color: orange;
   background-image: url("https://masteringjs.io/assets/images/vue/vue-transparent.png");
-  background-size: 50px; /* auto, cover(x,y중 더 넓은 너비에 맞춰진다. 그림이 짤려서 보인다.), contain(x,y중 더 짧은 너비에 맞춰진다..그림이 다 보인다.), ... */
+  background-size: cover; /* 그외 auto, cover(x,y중 더 넓은 너비에 맞춰진다. 그림이 짤려서 보인다.), contain(x,y중 더 짧은 너비에 맞춰진다..그림이 다 보인다.), ... */
   background-repeat: no-repeat; /* repeat, repeat-x, repeat-y, no-repeat */
   background-position: top right; /* center, top right, bottom left, ... */
+  background-attachment: fixed; /* scroll(요소와 같이 스크롤), fixed(스크롤 x) */
 }
