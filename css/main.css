@@ -1,38 +1,27 @@
-body {
-  height: 3000px;
-}
-
-.wrap {
-  width: 400px;
-  height: 300px;
-  background-color: tomato;
-  position: relative;
-}
-
 .container {
   width: 300px;
   background-color: royalblue;
+  position: relative;
 }
 
 .container .item {
+  width: 100px;
+  height: 100px;
   border: 4px dashed red;
   background-color: orange;
 }
 
 .container .item:nth-child(1) {
-  width: 100px;
-  height: 100px;
+  position: relative;
+  z-index: 1; /* 1th is above 2th */
 }
 
 .container .item:nth-child(2) {
-  width: 140px;
-  height: 70px;
-  position: fixed; /* fixed even though there is a scroll in viewport page. */
-  bottom: 30px;
-  right: 60px;
+  position: absolute;/* 3th is behind 2th child */
+  top: 50px;
+  left: 50px;
 }
 
 .container .item:nth-child(3) {
-  width: 70px;
-  height: 120px;
+
 }
