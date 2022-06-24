@@ -1,6 +1,6 @@
 .container { /*flex container*/
   background-color: royalblue;
-  display: flex; /* 수평 정렬 */
+  display: flex; /* 수평 정렬 */ /*flex, inline-flex etc*/
 }
 
 .container .item { /*flex items*/
