@@ -1,3 +1,7 @@
+body {
+  height: 3000px;
+}
+
 .wrap {
   width: 400px;
   height: 300px;
@@ -23,7 +27,7 @@
 .container .item:nth-child(2) {
   width: 140px;
   height: 70px;
-  position: fixed;
+  position: fixed; /* fixed even though there is a scroll in viewport page. */
   bottom: 30px;
   right: 60px;
 }
