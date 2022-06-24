@@ -4,8 +4,8 @@ a {
   height: 100px;
   background-color: orange;
   font-size: 22px;
-  color: white;
-  text-decoration: none;
-  text-align: center;
+  color: white; /* not font-color or text-color .. just color! */
+  text-decoration: none; /* none, underline, overline(윗줄), line-through(중앙선) */
+  text-align: center; /* center, left, right, justify(양쪽정렬) */
   line-height: 100px;
 }
