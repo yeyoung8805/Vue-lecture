@@ -1,7 +1,7 @@
 .container {
   width: 300px;
   background-color: royalblue;
-  position: static; /* (default) value is.. static */
+  position: relative;
 }
 
 .container .item {
