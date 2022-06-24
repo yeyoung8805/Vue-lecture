@@ -23,5 +23,6 @@
 }
 
 .container .item:nth-child(3) {
-  z-index: 2; /*3th is not above.. because it doesnt have position attribute */
+  position: fixed;
+  z-index: 2; /* 3th is above 2th */
 }
