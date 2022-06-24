@@ -17,7 +17,7 @@
 }
 
 .container .item:nth-child(2) {
-  position: absolute;
+  position: absolute; /*absolute makes this display:block; */
   top: 50px;
   left: 50px;
 }
