@@ -1,7 +1,7 @@
 .container {
   width: 300px;
   background-color: royalblue;
-  position: relative; /* item 요소들을 container 안에 상대적으로 배치 */
+  position: relative; /* item 요소들을 container 안에 상대적으로 배치 */ /* relative, absolute, fixed */
 }
 
 .container .item {
