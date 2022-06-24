@@ -4,6 +4,7 @@
   background-color: royalblue;
   display: flex;
   flex-wrap: wrap; /* 줄바꿈 허용 */ /*(default) nowrap 줄바꿈 안되고 찌그러져 보임*/
+  justify-content: flex-end; /*수평 주축에서 끝으로 정렬이니, 우측 정렬 */
 }
 
 .container .item { /*flex items*/
