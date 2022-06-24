@@ -13,11 +13,11 @@
 
 .container .item:nth-child(1) {
   position: relative;
-  z-index: 1; /* 1th is above 2th */
+  z-index: 1;
 }
 
 .container .item:nth-child(2) {
-  position: absolute;/* 3th is behind 2th child */
+  position: absolute;
   top: 50px;
   left: 50px;
 }
