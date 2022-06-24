@@ -23,7 +23,7 @@
 }
 
 .container .item:nth-child(3) {
-  position: fixed;
+  position: fixed; /* position need to be declared */
   z-index: 1; /* 3th is above 1th as z-index is same.. z-index bigger one is more above. */
   left: 10px;
   top: 20px;
