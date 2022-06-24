@@ -1,11 +1,16 @@
-div {
+body {
+  padding: 100px;
+}
+
+.container {
+  width: 100px;
+  height: 100px;
+  background-color: royalblue;
+}
+
+.container .item {
   width: 100px;
   height: 100px;
   background-color: orange;
-  transition: 1s .5s; /* 1s = 지속시간, .5s = 대기시간 즉, .5초 기다렸다가 1초동안 애니메이션 효과가 나타난다. */
-}
-
-div:hover {
-  width: 300px;
-  background-color: royalblue;
+  transform: rotate(45deg);
 }
