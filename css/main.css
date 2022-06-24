@@ -4,7 +4,7 @@
   background-color: royalblue;
   display: flex;
   flex-wrap: wrap;
-  align-content: stretch; /*교차축(수직)의 여러줄 정렬방법 : stretch, flex-start, flex-end, center, space-between, space-around */
+  align-content: space-between; /*교차축(수직)의 여러줄 정렬방법 : stretch (default), flex-start, flex-end, center, space-between, space-around */
 }
 
 .container .item { /*flex items*/
