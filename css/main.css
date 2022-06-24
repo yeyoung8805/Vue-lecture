@@ -2,9 +2,7 @@ div {
   width: 100px;
   height: 100px;
   background-color: orange;
-  transition:
-    width .5s,
-    background-color 2s; /* transition 속성들을 쉼표(,)로 연결하여 정의 가능 */
+  transition: 1s .5s; /* 1s = 지속시간, .5s = 대기시간 즉, .5초 기다렸다가 1초동안 애니메이션 효과가 나타난다. */
 }
 
 div:hover {
