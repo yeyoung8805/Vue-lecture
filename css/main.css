@@ -5,5 +5,5 @@ div {
   background-image: url("https://masteringjs.io/assets/images/vue/vue-transparent.png");
   background-size: 50px;
   background-repeat: no-repeat; /* repeat, repeat-x, repeat-y, no-repeat */
-  background-position: center;
+  background-position: top right; /* center, top right, bottom left, ... */
 }
