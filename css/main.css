@@ -1,7 +1,7 @@
 .container {
   width: 300px;
   background-color: royalblue;
-  position: relative; /* item 요소들을 container 안에 상대적으로 배치 */ /* relative, absolute, fixed */
+  position: static; /* (default) value is.. static */
 }
 
 .container .item {
@@ -18,8 +18,8 @@
   width: 140px;
   height: 70px;
   position: absolute;
-  top: 30px;
-  right: 20px;
+  bottom: 30px;
+  right: 60px;
 }
 
 .container .item:nth-child(3) {
