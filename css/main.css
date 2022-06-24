@@ -3,8 +3,8 @@
   height: 300px;
   background-color: royalblue;
   display: flex;
-  flex-wrap: wrap;
-  align-items: flex-end; /*교차축(수직)의 한줄에 대해서 정렬*/ /* (default)stretch, flex-start, flex-end, center, baseline */
+  justify-content: center;
+  align-items: center; /*교차축(수직)의 한줄에 대해서 정렬*/ /* (default)stretch, flex-start, flex-end, center, baseline */
 }
 
 .container .item { /*flex items*/
