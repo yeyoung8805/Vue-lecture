@@ -1,6 +1,7 @@
 .container { /*flex container*/
   background-color: royalblue;
   display: flex; /* 수평 정렬 */ /*flex, inline-flex etc*/
+  flex-direction: row-reverse; /* 우 -> 좌 방향 */
 }
 
 .container .item { /*flex items*/
