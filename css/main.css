@@ -2,7 +2,7 @@ h1 {
   font-size: 24px; /* 기본크기는 16px, 그외 px,em,rem등 단위로 지정가능 */
   font-weight: 700; /* 글자의 두께. bold 700, normal 400, 100~900까지 지정가능 */
   font-style: italic; /* normal, italic, oblique */
-  font-family: serif;
+  font-family: serif; /* 글꼴. 글꼴,글꼴,글꼴,...,글꼴계열로 나타낼 수 있다. serif, sans-serif, monospace, cursive, fantasy */
 }
 p {
   font-size: 16px;
