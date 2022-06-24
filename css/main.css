@@ -12,5 +12,5 @@ body {
   width: 100px;
   height: 100px;
   background-color: orange;
-  transform: rotate(45deg) scale(1.3);  /*rotate 회전, scale 몇배 크기 증가*/
+  transform: rotate(45deg) scale(1.3) translate(80px, 40px); /*translate(x축으로 이동거리, y축으로 이동거리) */
 }
