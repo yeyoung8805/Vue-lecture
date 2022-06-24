@@ -1,7 +1,7 @@
 span {
-  display: block; /* makes this can have width, height */
   width: 100px;
   height: 100px;
   background: orange;
   font-size: 40px;
+  position: absolute; /* this is same as display:block; */
 }
