@@ -17,9 +17,9 @@
 .container .item:nth-child(2) {
   width: 140px;
   height: 70px;
-  position: relative; /*자기자신을 기준으로 top 30px, left 200px 멀어진다.*/
+  position: absolute;
   top: 30px;
-  left: 200px;
+  right: 20px;
 }
 
 .container .item:nth-child(3) {
