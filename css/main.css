@@ -1,12 +1,14 @@
 .container { /*flex container*/
+  width: 250px;
+  height: 200px;
   background-color: royalblue;
-  display: flex; /* 수평 정렬 */ /*flex, inline-flex etc*/
-  flex-direction: column-reverse; /* 아래(flex start) -> 위(flex end) 방향 */ /* column : 위->아래로 */
+  display: flex;
+  flex-wrap: wrap; /* 줄바꿈 허용 */ /*(default) nowrap 줄바꿈 안되고 찌그러져 보임*/
 }
 
 .container .item { /*flex items*/
   width: 100px;
   height: 100px;
-  border: 9px dashed red;
+  border: 3px dashed red;
   background-color: orange;
 }
