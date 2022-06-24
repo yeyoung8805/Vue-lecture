@@ -2,7 +2,7 @@ div {
   width: 100px;
   height: 100px;
   background-color: orange;
-  transition: width 1s; /* all, width(등 특정 property 명) */
+  transition: width .5s; /* all, width(등 특정 property 명) */
 }
 
 div:hover {
