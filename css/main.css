@@ -4,7 +4,7 @@
   background-color: royalblue;
   display: flex;
   flex-wrap: wrap; /* 줄바꿈 허용 */ /*(default) nowrap 줄바꿈 안되고 찌그러져 보임*/
-  justify-content: flex-start; /* (default) flex-start 이니, 입력 안해도 자동으로 적용됨 */
+  justify-content: center; /* 수평 주축에서 가운데 정렬 */
 }
 
 .container .item { /*flex items*/
