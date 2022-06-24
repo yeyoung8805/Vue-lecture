@@ -23,7 +23,7 @@
 .container .item:nth-child(2) {
   width: 140px;
   height: 70px;
-  position: absolute;
+  position: fixed;
   bottom: 30px;
   right: 60px;
 }
