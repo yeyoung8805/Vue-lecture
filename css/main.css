@@ -1,7 +1,11 @@
-span {
+.container {
+  background-color: royalblue;
+  display: flex; /* 수평 정렬 */
+}
+
+.container .item {
   width: 100px;
   height: 100px;
-  background: orange;
-  font-size: 40px;
-  position: absolute; /* this is same as display:block; */
+  border: 9px dashed red;
+  background-color: orange;
 }
