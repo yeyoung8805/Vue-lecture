@@ -1,9 +1,9 @@
-.container {
+.container { /*flex container*/
   background-color: royalblue;
   display: flex; /* 수평 정렬 */
 }
 
-.container .item {
+.container .item { /*flex items*/
   width: 100px;
   height: 100px;
   border: 9px dashed red;
