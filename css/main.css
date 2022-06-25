@@ -20,6 +20,7 @@
   border-radius: 10px; /* border-radius : 경계선의 둥근 정도 */
   box-sizing: border-box; /* border 가 들어간 만큼 box 사이즈가 더 커지지 않게. 즉, border를 포함해서 box 사이즈가 결정됨 */
   background-color: #555;
+  overflow: hidden; /* 자식요소인 .image의 바깥으로 흘러넘치는 부분들을 hidden 숨기겠다는 뜻 */
   transform: skewX(-14deg); /* X축을 기준으로 -14도 기울임 */
   transition: 
     transform .1s, 
@@ -33,5 +34,10 @@
 }
 
 .container .heroes .hero .image {
+  width: 140%;
+  height: 100%;
+}
 
+.container .heroes .hero:nth-child(1) .image {
+  background-image: url("../images/hero1.png");
 }
