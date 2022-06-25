@@ -1,22 +1,17 @@
-body {
-  padding: 100px;
-}
-
 .container {
-  width: 100px;
-  height: 100px;
-  background-color: royalblue;
-  perspective: 250px; /*부모 속성 perspective */
+
 }
 
-.container .item {
-  width: 100px;
-  height: 100px;
-  background-color: orange;
-  font-size: 60px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  transform: rotateX(0deg); /*밑에 hidden이여도 뒷면이 hidden인거지, 0deg가 되면 앞면은 보인다.*/
-  backface-visibility: hidden;
+.container .heroes {
+  display: flex; /*자식 hero 들이 수평정렬 되도록 하는 속성*/
+}
+
+.container .heroes .hero {
+  width: 80px;
+  height: 84px;
+  background-color: #555;
+}
+
+.container .heroes .hero .image {
+
 }
