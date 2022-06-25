@@ -18,6 +18,7 @@
   margin: 4px;
   border: 3px solid #fff;
   border-radius: 10px; /* border-radius : 경계선의 둥근 정도 */
+  box-sizing: border-box; /* border 가 들어간 만큼 box 사이즈가 더 커지지 않게. 즉, border를 포함해서 box 사이즈가 결정됨 */
   background-color: #555;
   transform: skewX(-14deg); /* X축을 기준으로 -14도 기울임 */
 }
