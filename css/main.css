@@ -36,6 +36,9 @@
 .container .heroes .hero .image {
   width: 140%;
   height: 100%;
+  background-position: center; /*캐릭터의 얼굴이 가운데로 보인다.*/
+  background-repeat: no-repeat; /*캐릭터의 왼쪽에 반복돼 보이던게 사라진다.*/
+  background-size: 90px;
 }
 
 .container .heroes .hero:nth-child(1) .image {
