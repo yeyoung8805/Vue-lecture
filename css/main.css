@@ -84,3 +84,11 @@ body {
 
 .container .heroes .hero:nth-child(31) .image { background-image: url("../images/hero31.png"); }
 .container .heroes .hero:nth-child(32) .image { background-image: url("../images/hero32.png"); }
+
+.container .logo {
+  max-width: 300px;
+}
+
+.container .logo img {
+  width: 100%; /*부모요소인 max-width 300px 까지만 적용한다는 뜻 */
+}
