@@ -25,6 +25,7 @@
 
 .container .heroes .hero:hover {
   background-color: #ff9c00;
+  transform: scale(1.5); /*transform 속성이 hover 에서 덮어쓰기 되므로, skewX() 속성이 적용이 안됨다.*/
 }
 
 .container .heroes .hero .image {
