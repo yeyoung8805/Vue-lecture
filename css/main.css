@@ -21,7 +21,9 @@
   box-sizing: border-box; /* border 가 들어간 만큼 box 사이즈가 더 커지지 않게. 즉, border를 포함해서 box 사이즈가 결정됨 */
   background-color: #555;
   transform: skewX(-14deg); /* X축을 기준으로 -14도 기울임 */
-  transition: .1s; /*애니메이션 효과로 자연스럽게 전환됨*/
+  transition: 
+    transform .1s, 
+    background-color .6s; /* transform scale()은 .1s 로 전환, background-color배경색상 전환은 .6s로 좀더 천천히 전환됨 */
 }
 
 .container .heroes .hero:hover {
