@@ -4,11 +4,13 @@
 
 .container .heroes {
   display: flex; /*자식 hero 들이 수평정렬 되도록 하는 속성*/
+  flex-wrap: wrap; /*수평요소된 찌그러진 요소들이 줄바꿈 가능 하도록 하는 속성*/
 }
 
 .container .heroes .hero {
   width: 80px;
   height: 84px;
+  margin: 4px;
   background-color: #555;
 }
 
