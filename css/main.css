@@ -25,7 +25,8 @@
 
 .container .heroes .hero:hover {
   background-color: #ff9c00;
-  transform: scale(1.5); /*transform 속성이 hover 에서 덮어쓰기 되므로, skewX() 속성이 적용이 안됨다.*/
+  transform: skewX(-14deg) scale(1.5);
+  z-index: 1; /* 0이 기본값인데, 1로 설정함으로써 겹쳐서 쌓이는 순위가 올라감 */
 }
 
 .container .heroes .hero .image {
