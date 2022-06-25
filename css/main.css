@@ -5,6 +5,9 @@
 .container .heroes {
   display: flex; /*자식 hero 들이 수평정렬 되도록 하는 속성*/
   flex-wrap: wrap; /*수평요소된 찌그러진 요소들이 줄바꿈 가능 하도록 하는 속성*/
+  justify-content: center; /* 수평축에서 가운데 정렬시킴 */
+  background-color: orange;
+  max-width: 700px; /*그냥 width로 설정할 경우, 브라우저 수평축이 축소되면 hero 요소들도 잘림 현상이 발생하기에 max-width로 설정*/
 }
 
 .container .heroes .hero {
