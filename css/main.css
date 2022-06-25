@@ -1,5 +1,11 @@
-.container {
+body {
+  height: 100vh; /*뷰포트의 전체 100%를 사용하겠다는 뜻*/
+  background-image: url("../images/bg.jpg");
+  background-size: cover; /*화면을 250, 300%..처럼 확대하면 스크롤이 생기는데 배경이미지가 반복되는걸 볼 수 있다.*/
+}
 
+.container {
+  padding: 50px 0;
 }
 
 .container .heroes {
