@@ -42,53 +42,23 @@ body {
         background-repeat: no-repeat; /*캐릭터의 왼쪽에 반복돼 보이던게 사라진다.*/
         background-size: 90px;
         transform: skewX(14deg) translateX(-16px); /* translateX()로 인해 이미지를 x축 기준으로 왼쪽으로 당겨와서 왼쪽의 여백을 줄인다. */
-      } 
+      }
+      @for $i from 1 through 32 {
+        // .hero
+        &:nth-child(#{$i}) .image {
+          background-image: url("#{$url}/hero#{$i}.png");
+        }
+      }
+    }
+  }
+  .logo {
+    max-width: 300px;
+    margin: 0 auto; /* left/right를 auto 로 지정하면 수평축기준으로 가운데 정렬 된다.*/  /*display: flex; 와 같은 효과 */
+    padding: 0 20px; /* logo 주변에 padding을 좌/우로 넣어서 브라우저가 줄어들어도 좌우 여백 존재하도록 한다. */
+    img {
+      width: 100%; /*부모요소인 max-width 300px 까지만 적용한다는 뜻 */
     }
   }
 }
 
-.hero:nth-child(1) .image { background-image: url("../images/hero1.png"); }
-.hero:nth-child(2) .image { background-image: url("../images/hero2.png"); }
-.hero:nth-child(3) .image { background-image: url("../images/hero3.png"); }
-.hero:nth-child(4) .image { background-image: url("../images/hero4.png"); }
-.hero:nth-child(5) .image { background-image: url("../images/hero5.png"); }
-.hero:nth-child(6) .image { background-image: url("../images/hero6.png"); }
-.hero:nth-child(7) .image { background-image: url("../images/hero7.png"); }
-.hero:nth-child(8) .image { background-image: url("../images/hero8.png"); }
-.hero:nth-child(9) .image { background-image: url("../images/hero9.png"); }
-.hero:nth-child(10) .image { background-image: url("../images/hero10.png"); }
 
-.hero:nth-child(11) .image { background-image: url("../images/hero11.png"); }
-.hero:nth-child(12) .image { background-image: url("../images/hero12.png"); }
-.hero:nth-child(13) .image { background-image: url("../images/hero13.png"); }
-.hero:nth-child(14) .image { background-image: url("../images/hero14.png"); }
-.hero:nth-child(15) .image { background-image: url("../images/hero15.png"); }
-.hero:nth-child(16) .image { background-image: url("../images/hero16.png"); }
-.hero:nth-child(17) .image { background-image: url("../images/hero17.png"); }
-.hero:nth-child(18) .image { background-image: url("../images/hero18.png"); }
-.hero:nth-child(19) .image { background-image: url("../images/hero19.png"); }
-.hero:nth-child(20) .image { background-image: url("../images/hero20.png"); }
-
-.hero:nth-child(21) .image { background-image: url("../images/hero21.png"); }
-.hero:nth-child(22) .image { background-image: url("../images/hero22.png"); }
-.hero:nth-child(23) .image { background-image: url("../images/hero23.png"); }
-.hero:nth-child(24) .image { background-image: url("../images/hero24.png"); }
-.hero:nth-child(25) .image { background-image: url("../images/hero25.png"); }
-.hero:nth-child(26) .image { background-image: url("../images/hero26.png"); }
-.hero:nth-child(27) .image { background-image: url("../images/hero27.png"); }
-.hero:nth-child(28) .image { background-image: url("../images/hero28.png"); }
-.hero:nth-child(29) .image { background-image: url("../images/hero29.png"); }
-.hero:nth-child(30) .image { background-image: url("../images/hero30.png"); }
-
-.hero:nth-child(31) .image { background-image: url("../images/hero31.png"); }
-.hero:nth-child(32) .image { background-image: url("../images/hero32.png"); }
-
-.container .logo {
-  max-width: 300px;
-  margin: 0 auto; /* left/right를 auto 로 지정하면 수평축기준으로 가운데 정렬 된다.*/  /*display: flex; 와 같은 효과 */
-  padding: 0 20px; /* logo 주변에 padding을 좌/우로 넣어서 브라우저가 줄어들어도 좌우 여백 존재하도록 한다. */
-}
-
-.container .logo img {
-  width: 100%; /*부모요소인 max-width 300px 까지만 적용한다는 뜻 */
-}
