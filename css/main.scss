@@ -1,6 +1,8 @@
+$url: "../images";
+
 body {
   height: 100vh; /*뷰포트의 전체 100%를 사용하겠다는 뜻*/
-  background-image: url("../images/bg.jpg");
+  background-image: url("#{$url}/bg.jpg");
   background-size: cover; /*화면을 250, 300%..처럼 확대하면 스크롤이 생기는데 배경이미지가 반복되는걸 볼 수 있다.*/
   background-repeat: no-repeat; /*배경이미지의 반복은 없으나, 밑에 흰영역이 보인다.*/
   background-attachment: fixed; /*스크롤 내려도 배경이미지는 고정돼있기때문에 스크롤과 함께 움직일 염려가 없다.*/
@@ -8,15 +10,14 @@ body {
 
 .container {
   padding: 50px 0;
-}
-
-.container .heroes {
-  display: flex; /*자식 hero 들이 수평정렬 되도록 하는 속성*/
-  flex-wrap: wrap; /*수평요소된 찌그러진 요소들이 줄바꿈 가능 하도록 하는 속성*/
-  justify-content: center; /* 수평축에서 가운데 정렬시킴 */
-  max-width: 700px; /*그냥 width로 설정할 경우, 브라우저 수평축이 축소되면 hero 요소들도 잘림 현상이 발생하기에 max-width로 설정*/
-  margin: 0 auto; /* top/bottom은 0, left/right는 auto로 지정하면 수평축 기준으로 가운데 정렬된다. */
-  padding: 40px 20px; /*내부여백. top/bottom=40px, left/right=20px*/
+  .heroes {
+    display: flex; /*자식 hero 들이 수평정렬 되도록 하는 속성*/
+    flex-wrap: wrap; /*수평요소된 찌그러진 요소들이 줄바꿈 가능 하도록 하는 속성*/
+    justify-content: center; /* 수평축에서 가운데 정렬시킴 */
+    max-width: 700px; /*그냥 width로 설정할 경우, 브라우저 수평축이 축소되면 hero 요소들도 잘림 현상이 발생하기에 max-width로 설정*/
+    margin: 0 auto; /* top/bottom은 0, left/right는 auto로 지정하면 수평축 기준으로 가운데 정렬된다. */
+    padding: 40px 20px; /*내부여백. top/bottom=40px, left/right=20px*/
+  }
 }
 
 .container .heroes .hero {
